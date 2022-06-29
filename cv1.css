@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    width: 100%;
+}
+.wrapper .main-left{
+    border: 1px solid grey;
+    float: left;
+    width: 30%;
+    height: 649px;
+    position: fixed;
+}
+.wrapper .main-left .container .container-up{
+    background-image: url(./../image/wa2.webp);
+    background-size: cover;
+    height: 200px;
+}
+.wrapper .main-left .container .container-up>img{
+    display: block;
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+h4{
+    color: whitesmoke;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.wrapper .main-left .container .icon{
+    margin-left: 45px;
+    margin-top: 10px;
+}
+.wrapper .main-left .container .icon a{
+    color: whitesmoke;
+    display: inline-block;
+    font-size: 20px;
+    padding: 0 5px;
+}
+ul li{
+    cursor: pointer;
+    display: list-item;
+    float: none;
+
+}
+ul li a>i{
+    color: black;
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 0 30px;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li:hover{
+    background: grey;
+}
+.wrapper .main-right{
+    float:right;
+    width: 68%;
+    border:1px solid red;
+}
+.wrapper .main-right .header-right img{
+    height: 300px;
+}
+.wrapper .main-right .card-content img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 50px;
+    float: left;
+}
+.wrapper .main-right .card-content p{
+    margin-top: 10px;
+}
+
+.wrapper .content{
+    height: 100vh;
+}

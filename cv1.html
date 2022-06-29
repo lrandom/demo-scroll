@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<link rel="stylesheet" href="cv1.css">
+<div class="wrapper">
+    <div class="main-left">
+        <nav class="container">
+            <div class="container-up">
+                <img src="./../image/avata.jpg" alt="">
+                <h4>khang nguyen</h4>
+                <h4>khangnguyen441999@gmail.com</h4>
+                <div class="icon">
+                    <link rel="stylesheet"
+                          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                    <a href="http://wwwfacebook.com" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="http://wwwdribbble.com" target="_blank">
+                        <i class="fa fa-dribbble"></i>
+                    </a>
+                    <a href="http://wwwtwitter.com" target="_blank">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="http://plusgoogle.com" target="">
+                        <i class="fa fa-google"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="container-down">
+                <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+                <ul>
+                    <li href="javascript:void(0)" onclick="scrollToContent('home')">
+                        <a>
+                            <i class="material-icons">home</i>
+                            HOME
+                        </a>
+                    </li>
+                    <li href="javascript:void(0)" onclick="scrollToContent('about')">
+                        <a>
+                            <i class="material-icons">person</i>
+                            ABOUT
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="material-icons">assignment</i>
+                            RESUME
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="material-icons">settings</i>
+                            SERVICE
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="material-icons">work</i>
+                            PORTFOLIIO
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="material-icons">view_carousel</i>
+                            PRICING
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="material-icons">library_books</i>
+                            BLOG
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="material-icons">phone</i>
+                            CONTACT
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="main-right">
+        <div class="header-right">
+            <img src="./../image/avata-right.jpg" alt="">
+        </div>
+        <div class="card-content">
+            <img src="./../image/avata.jpg" alt="">
+            <h4>khang</h4>
+        </div>
+
+        <div id="home-content" class="content">
+            Home Content
+        </div>
+
+        <div id="about-content" class="content">
+            About Content
+        </div>
+
+        <div id="resume-content" class="content">
+            Resume Content
+        </div>
+
+        <div id="service-content" class="content">
+            Service Content
+        </div>
+
+        <div id="portfolio-content" class="content">
+            Portfolio Content
+        </div>
+
+        <div id="pricing-content" class="content">
+            Pricing Content
+        </div>
+
+        <div id="blog-content" class="content">
+            Blog Content
+        </div>
+
+        <div id="contact-content" class="content">
+            Contact Content
+        </div>
+    </div>
+</div>
+
+<script>
+    function scrollToContent(page) {
+        const node = document.querySelector('#' + page + "-content");
+        node.scrollIntoView({
+            behavior: 'smooth'
+        });
+    }
+</script>
+</body>
+</html>
